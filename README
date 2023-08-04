@@ -1,6 +1,6 @@
 **README (English)**
 
-# NPM Package Popularity Checker
+# NPM Package Popularity And Downloads Checker
 
 This script allows you to check the popularity of NPM packages by retrieving their weekly download counts and popularity score from npms.io API.
 
