@@ -109,7 +109,7 @@ async function main() {
     console.clear();
     browser = await puppeteer.launch({ headless: "new" });
     const searchTerm = 'orm';
-    const numberOfResults = 50;
+    const numberOfResults = 5;
     await searchNpmPackages(searchTerm, numberOfResults);
   } catch (error) {
     console.error('Error en la función principal:', error);

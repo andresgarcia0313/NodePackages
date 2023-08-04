@@ -1,0 +1,83 @@
+**README (English)**
+
+# NPM Package Popularity Checker
+
+This script allows you to check the popularity of NPM packages by retrieving their weekly download counts and popularity score from npms.io API.
+
+## Prerequisites
+
+Before running the script, make sure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+
+## Installation
+
+1. Clone the repository or download the script directly.
+2. Install dependencies by running the following command in your terminal:
+
+```bash
+npm install
+```
+
+## Usage
+
+To check the popularity of NPM packages, follow these steps:
+
+1. Open the `index.js` file in your code editor.
+2. Modify the `searchTerm` variable with the desired package name you want to search for.
+3. Adjust the `numberOfResults` variable to set the number of search results to be displayed.
+4. Save the changes.
+5. Run the script using the following command:
+
+```bash
+node index.js
+```
+
+The script will fetch the search results from the npms.io API, retrieve the weekly download counts for the top packages, and display the results in a table format.
+
+## Note
+
+If you encounter any issues while fetching package details, the script will display an error message for the specific package and proceed with other packages.
+
+**README (Español)**
+
+# Comprobador de Popularidad de Paquetes NPM
+
+Este script te permite verificar la popularidad de paquetes NPM obteniendo sus recuentos de descargas semanales y puntuación de popularidad desde la API de npms.io.
+
+## Requisitos previos
+
+Antes de ejecutar el script, asegúrate de tener lo siguiente instalado:
+
+- Node.js
+- npm (Node Package Manager)
+
+## Instalación
+
+1. Clona el repositorio o descarga el script directamente.
+2. Instala las dependencias ejecutando el siguiente comando en tu terminal:
+
+```bash
+npm install
+```
+
+## Uso
+
+Para verificar la popularidad de paquetes NPM, sigue estos pasos:
+
+1. Abre el archivo `index.js` en tu editor de código.
+2. Modifica la variable `searchTerm` con el nombre del paquete que desees buscar.
+3. Ajusta la variable `numberOfResults` para establecer el número de resultados de búsqueda que se mostrarán.
+4. Guarda los cambios.
+5. Ejecuta el script usando el siguiente comando:
+
+```bash
+node index.js
+```
+
+El script obtendrá los resultados de búsqueda desde la API de npms.io, recuperará los recuentos de descargas semanales de los principales paquetes y mostrará los resultados en formato de tabla.
+
+## Nota
+
+Si encuentras algún problema al obtener detalles del paquete, el script mostrará un mensaje de error para el paquete específico y continuará con otros paquetes.
